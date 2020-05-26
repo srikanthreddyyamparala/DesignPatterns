@@ -13,8 +13,8 @@ public class BankEmployee1 {
 		System.out.println(service.withdraw(1002,5000));
 		System.out.println(":::::::::::::::::::::::::::::::::::::::::::::::::::");
 		
-		service1=BankServiceFactory.getInstance(RBIConstantes.REGULARBANKING);
-		System.out.println(service1.deposite(1003, 8000));
+		service1=BankServiceFactory.getInstance(RBIConstantes.DEMONITIZATION);
+		System.out.println(service1.deposite(1003, 3000));
 		System.out.println(service1.withdraw(1004, 2000));
 		System.out.println(":::::::::::::::::::::::::::::::::::::::::::::::::::");
 
